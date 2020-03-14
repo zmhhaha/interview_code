@@ -1,7 +1,7 @@
 #include <cstdio>
 #include <cmath>
 #include <vector>
-#include <climits>
+
 using namespace std;
 int number[10] = { 0,1,2,3,4,5,6,7,8,9 };
 int expend[10] = { 0,2,5,5,4,5,6,3,7,6 };
@@ -34,7 +34,7 @@ int main() {
 		else{
 			dp[i]=maxvalue*10+choice;
 		}
-		printf("%d\n",dp[i]);
+		//printf("%d\n",dp[i]);
 	}
 	printf("%d",dp[n]);
 	return 0;
