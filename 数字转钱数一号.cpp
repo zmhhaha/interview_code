@@ -1,3 +1,28 @@
+/*输入
+1
+12
+113
+1234 
+12345 
+123456
+1234567
+12345678
+123456789
+1234567890
+13456789001
+123456789012
+123456789012.1
+123456789012.01
+101010101010.01
+0.0
+0
+0.00
+00.00
+0.01
+1.00
+quit
+*/
+
 #include <cstdlib>
 #include <cstdio>
 #include <iostream>
@@ -279,17 +304,47 @@ int main(int argc, char* argv[]){
 }
 
 /*结果
-1.1	一元一角
-1.2	一元二角
-0.1	一角
-0	零
-0	零
-1.24	一元二角四分
-1.01	一元零一分
-12.34	一十二元三角四分
-123333333333.33	一千二百三十三亿三千三百三十三万三千三百三十三元三角三分
-123333333333	一千二百三十三亿三千三百三十三万三千三百三十三元
-100000000000	一千亿
-100000000000.01	一千亿零一分
+Please input a number:1
+一元
+Please input a number:12
+一十二元
+Please input a number:113
+一百一十三元
+Please input a number:1234
+一千二百三十四元
+Please input a number:12345
+一万二千三百四十五元
+Please input a number:123456
+一十二万三千四百五十六元
+Please input a number:1234567
+一百二十三万四千五百六十七元
+Please input a number:12345678
+一千二百三十四万五千六百七十八元
+Please input a number:123456789
+一亿二千三百四十五万六千七百八十九元
+Please input a number:1234567890
+一十二亿三千四百五十六万七千八百九十元
+Please input a number:13456789001
+一百三十四亿五千六百七十八万九千零一元
+Please input a number:123456789012
+一千二百三十四亿五千六百七十八万九千零一十二元
+Please input a number:123456789012.1
+一千二百三十四亿五千六百七十八万九千零一十二元一角
+Please input a number:123456789012.01
+一千二百三十四亿五千六百七十八万九千零一十二元零一分
+Please input a number:101010101010.01
+一千零一十亿一千零一十万一千零一十元零一分
+Please input a number:0
+零
+Please input a number:0
+零
+Please input a number:0
+零
+Please input a number:0
+零
+Please input a number:0.01
+一分
+Please input a number:1
+一元
 
 */
